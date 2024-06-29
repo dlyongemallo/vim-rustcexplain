@@ -29,9 +29,6 @@ function! rustcexplain#OpenExplainPopup(...) abort
   else
     call rustcexplain#popup#OpenPopupWindow(l:cmd, l:errcode)
   endif
-
-  set foldlevel=1
-  set conceallevel=2
 endfunction
 
 
